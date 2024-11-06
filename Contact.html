@@ -1,0 +1,43 @@
+<html>
+<head>
+    <link rel="stylesheet" href="unistyle-menu.css">
+<title> Contact Us </title>
+</head>
+<body>
+<h1 class="c1">CONTACT US </h1>
+<br>
+<div class="header">
+    <h3><a href="index 3.html#ab"> About-Us</a>  &nbsp;&nbsp;&nbsp;
+    <a href="menu.html" > Menu </a>  &nbsp;&nbsp;&nbsp; 
+    <a href="Contact.html">Contact Us</a>   &nbsp;&nbsp;&nbsp;
+    </h3>
+</div>
+<script>
+function fun(){
+    
+    var exp=document.getElementById("go").value;
+    var exp2=document.getElementById("ba").value;
+
+
+    if( ba.checked){
+        alert("We are really sorry for that. We are giving 15% off coupon for your next visit ,as an apology");
+    }
+    else if(go.checked){
+        alert("We are very thankful and hope to see you next time");
+    }
+      
+    
+}
+</script>
+<form onsubmit="fun()">
+    Enter your name :<input type="text" required > <br><br>
+    Phone number :<input type="number" required placeholder="add 91+" > <br><br>
+    Email :<input type="mail" required > <br><br>
+    Address:<input type="text" required > <br><br>
+    message:<textarea id="a5"></textarea><br><br>
+    Birth Date:<input type= "date" required ><br><br> 
+    Experience:<pre>Good<input type="radio" name="g" required id="go">  Bad<input type="radio" required id="ba" name="g"></pre>
+    <button type="submit">submit</button>
+</form>
+</body> 
+</html>
